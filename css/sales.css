@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+h2,h3,h4,h6,.card-text{
+  font-family: 'cwTeXYen'!important;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar-nav{
+  position: relative;
+  left:40px;
+}
+li{
+  margin: 10px;
+  font-size: 22px;
+  font-family: 'Syne Mono', monospace;
+}
+nav{
+  z-index: 1;
+}
+.navbar-brand,.card-title{
+  font-family: 'Syne Mono', monospace;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+#login:hover{
+  cursor: pointer;
+}
+i{
+  color: black;
+}
+.card img{
+  border-radius: 100%;
+  width: 160px;
+  margin-top: 80px;
+  margin-left: 50px;
+  /* vertical-align: center; */
+}
+
+.card{
+  border: none;
+}
+
+.breadcrumb{
+  position: absolute;
+  left: 50%;
+}
